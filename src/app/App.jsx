@@ -1,5 +1,5 @@
-import { Route, Routes } from "react-router-dom";
 import NotFound from "src/pages/notFound";
+import { Route, Routes } from "react-router-dom";
 import { ROUTES } from "./routes";
 import { AppWrapper } from "./App.styled";
 
