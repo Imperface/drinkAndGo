@@ -2,7 +2,7 @@ import { ButtonWhiteWrapper } from "./ButtonWhite styled";
 
 export const ButtonWhite = ({
   buttonClassName,
-  textClassname,
+  textClassName,
   type = "button",
   text = "",
   isLoading = false,
@@ -16,7 +16,7 @@ export const ButtonWhite = ({
       disabled={isLoading}
       onClick={callback}
     >
-      <span className={textClassname}>
+      <span className={textClassName}>
         {
           //? {icon && isLoading ? <Loader size={34} color="#000" /> : icon()}
         }

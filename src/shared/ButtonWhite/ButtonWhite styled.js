@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "src/shared/constants/device";
 
 export const ButtonWhiteWrapper = styled.button`
   padding: 18px 44px;
@@ -8,6 +9,9 @@ export const ButtonWhiteWrapper = styled.button`
   background-color: ${({ theme }) => theme.whiteD};
   border: 1px solid transparent;
   outline: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.3;
 
   &:hover:enabled,
   &:focus:enabled {
@@ -22,5 +26,9 @@ export const ButtonWhiteWrapper = styled.button`
   &:disabled {
     cursor: default;
     opacity: 0.2;
+  }
+  @media ${device.tablet} {
+    font-size: 16px;
+    line-height: 1.1;
   }
 `;
