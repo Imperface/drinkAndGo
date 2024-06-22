@@ -1,7 +1,7 @@
 import { Input } from "@/shared/Input";
 import { Button } from "@/shared/Button";
-import { useForm, SubmitHandler, Controller } from "react-hook-form";
 import { SignInFormWrapper } from "./SignInForm.styled";
+import { useForm, SubmitHandler, Controller } from "react-hook-form";
 
 interface Inputs {
   name: string;
