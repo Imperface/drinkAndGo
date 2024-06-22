@@ -1,1 +1,0 @@
-export { ButtonWhite } from "./ButtonWhite";
