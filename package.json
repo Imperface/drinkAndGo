@@ -1,6 +1,6 @@
 {
-  "name": "drink_helper_ts",
-  "homepage": "https://imperface.github.io/drinkHelper/",
+  "name": "drinkHelper",
+  "homepage": "https://Imperface.github.io/drinkHelper/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@types/styled-components": "^5.1.34",
-    "lodash.flattendeep": "^4.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.52.0",
@@ -20,7 +19,6 @@
     "styled-components": "^6.1.11"
   },
   "devDependencies": {
-    "@types/lodash.flattendeep": "^4.4.9",
     "@types/node": "^20.14.6",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
